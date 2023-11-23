@@ -26,7 +26,7 @@ namespace Practica_5_Tema_5_Entornos
             //Leo el telegrama
             textoTelegrama = txtTelegrama.Text;
             // telegrama urgente?
-            if (cbUrgente.Checked)
+            if (rbUrgente.Checked)
                 tipoTelegrama = 'u';
             //añado la condición si no es urgente
             else
